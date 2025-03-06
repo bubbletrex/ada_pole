@@ -9,4 +9,4 @@ Some of the features it includes are:
 3. On desktop, you can see which section you are inon the top right corner. It changes as you scroll. 
 4. It is mobile compatible. 
 
-Built with simple HTMl/CSS/JS
+Built with simple HTML/CSS/JS
