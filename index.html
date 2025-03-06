@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <title>4001 Berri</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="progress"></div>
+    <nav class="mainMenu">
+      <!-- Toggle Button -->
+      <span id="menuToggle" onclick="toggleNav()">[+ index]</span>
+      <!-- Another Item (Right) -->
+      <span id="sectional">Pôle Artistique 4001 Berri</span>
+    </nav>
+    <nav id="mySidenav" class="sidenav">
+      <a href="#top">Annual Report</a>
+      <a href="#PrésentationProjet">Présentation du projet</a>
+      <a href="#motDeLaPresident">Mot de la President</a>
+      <a href="#objectifsEtEtapes">Objectifs et Étapes de réalisation</a>
+      <a href="#Partenariats">Partenariats</a>
+      <a href="#partnairesEngages">Partenaires engagés</a>
+      <a href="#strategiesFinancieres">Stratégies Financières</a>
+    
+    </nav>
+
+    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+    <main>
+      <div class="hero">
+        <img
+          src="images/pole_artistique_4001_berri.svg"
+          alt="Pole Berri 4001"
+          id="logo"
+        />
+
+        <!-- 
+        <img src="https://cdn.glitch.global/1fe340d2-e506-4bfd-9083-e1991ebc6fce/pole_artistique_4001_berri.svg?v=1740145430971" alt="Pole Berri 4001" id="logo">
+-->
+        <h1 class="headline">Annual Report</h1>
+        <h2 class="headline">2023 - 24</h2>
+        <div class="homeNav">
+          <p><a onclick="toggleNav()">Open Index</a></p>
+          <p><a href="#PrésentationProjet">↓ Scroll to Read</a></p>
+        </div>
+      </div>
+      <hr />
+
+      <h2 id="PrésentationProjet">Présentation du projet</h2>
+      <h3>Immobilisation collective</h3>
+      <p>
+        Fondé par le
+        <a href="https://www.givideo.org/" target="_blank"
+          >Groupe Intervention vidéo (GIV)</a
+        >, <a href="https://www.ada-x.org/" target="_blank">Ada X</a> et
+        <a href="https://www.oboro.net/" target="_blank">OBORO</a>, le Pôle
+        artistique 4001 Berri est un osbl qui offre 27 000 p2 d'espaces
+        commerciaux à des prix abordables à des personnes physiques et morales
+        ou à des regroupements issus à de la communauté artistique. L'organisme
+        permet à cette vaste communauté d'avoir accès à des locaux et
+        équipements professionnels situés sur le Plateau Mont-Royal, bien
+        desservi par les transports en commun et près des artères commerciales.
+        La structure organisationnelle du Pôle artistique 4001 Berri offre des
+        moyens de mutualiser et de partager des ressources pour passer d'une
+        dynamique individuelle à une dynamique collectives en misant sur une
+        complémentarité des expertises et un décloisonnement des compétences.
+      </p>
+      <p>
+        Notre pôle de création offre un accès à l'art à des publics variés. Il
+        cherche activement à éliminer les obstacles à l'accessibilité et à la
+        participation culturelle et s'engage à agir équitablement envers les
+        participant·e·s (artistes, travailleur·euse·s, visiteur·euse·s, etc.).
+        Les valeurs de solidarité, d'équité et de partage sont au coeur de nos
+        actions.
+      </p>
+      <p>
+        Le Pôle artistique 4001 Berri est mené par un conseil d'administration
+        constitué par des représentant·e·s des organismes artistiques
+        utilisateurs. La gouvernance démocratique permettra d'agir pour le bien
+        collectif, en mettant en commun les expertises spécifiques au milieu
+        artistique. L'identité unique de chacun des organismes est préservée en
+        valorisant la complémentarité plutôt que la compétition.
+      </p>
+      <hr />
+      <img
+        src="images/Capture d’écran, le 2025-02-25 à 08.54.26.png"
+        alt="4001 Berri Building"
+        class="building"
+      />
+      <hr />
+      <h2 id="motDeLaPresident" class="caps">Mot de la Présidente</h2>
+      <p>Chères, chers partenaires du Pôle 4001 Berri,</p>
+      <p>
+        L’année 2023 aura marqué un tournant décisif pour notre Pôle artistique.
+        En effet, grâce à l’engagement exceptionnel de mes collègues Marianne
+        Desrochers, d’Ada X et de Petunia Alves, du GIV, nous avons pu
+        concrétiser notre projet le plus ambitieux à ce jour: l’achat de
+        l’immeuble du 3995- 4001 rue Berri. Cette acquisition représente une
+        étape majeure vers la réalisation de notre vision d’un milieu artistique
+        montréalais plus fort, plus juste et plus inclusif.
+      </p>
+      <p>
+        Je suis également ravie de compter parmi nous de nouveaux partenaires de
+        premier plan :
+        <a href="https://www.articule.org/" target="_blank">articule</a>,
+        <a href="https://www.sbcgallery.ca/" target="_blank">SBC Gallery</a> et
+        <a href="https://centreturbine.org/" target="_blank">Turbine</a>. Leur
+        expertise et leur passion enrichissent considérablement notre
+        communauté.
+      </p>
+      <p>
+        Ensemble, nous travaillons sans relâche à définir les contours de ce
+        nouvel espace qui sera dédié à la création, à la production et à la
+        diffusion artistique. Je tiens à remercier chaleureusement Gio Olmos,
+        Laura Leong, Maral Farrokh, Nuria Carton de Grammont, Sandrine Côté et
+        Yuko Fedrau pour leur précieuse contribution à ce projet collectif.
+      </p>
+      <p>
+        Notre Pôle artistique est plus que jamais un lieu de rencontre et
+        d’échange où les artistes, les travailleur·euse·s culturel·le·s et les
+        communautés peuvent s’épanouir. Je suis fière de ce que nous avons
+        accompli et impatiente de voir ce que l’avenir nous réserve.
+      </p>
+      <p id="signature">Marianne Breton</p>
+      <hr />
+      <h2 id="objectifsEtEtapes" class="caps">
+        Objectifs et étapes de réalisation
+      </h2>
+      <h3>
+        Le projet d'immobilisation du Pôle artistiques 4001 Berri a pour
+        objectifs de:
+      </h3>
+      <ul>
+        <li>
+          Offrir la possibilité aux organismes artistiques d’occuper des espaces
+          à long terme;
+        </li>
+        <li>Pérenniser les organisations artistiques;</li>
+        <li>Mutualiser et partager des ressources communes;</li>
+        <li>
+          Développer un pôle artistique incontournable à Montréal en regroupant
+          des organismes en diffusion, distribution et en production artistique.
+        </li>
+      </ul>
+      <h4>1. SÉCURISER L'ACQUISITION DU 3995-4001 BERRI</h4>
+      <p>
+        L'achat du 3995-4001 Berri par le Pôle artistique 4001 Berri s’est
+        conclu en décembre 2023 . L'organisme a obtenu un prêt à capital patient
+        auprès du Fonds immobilier de solidarité FTQ, pour assumer l'acquisition
+        et la réalisation de travaux à la structure du bâtiment. La transaction
+        est le résultat d'une vérification diligente comprenant un audit
+        technique du bâtiment et une étude de faisabilité financière, réalisée
+        en collaboration avec Bâtir son quartier
+      </p>
+      <h4>2. FINANCEMENT PERMANENT</h4>
+      <p>
+        Afin de soumettre des demandes de subventions d’aide aux
+        immobilisations, notamment auprès du ministère de la Culture et des
+        Communications et de Patrimoine canadien, nous avons rédigés ou sommes
+        en cours de rédaction, entre autres, une étude de marché, une étude de
+        faisabilité financière, un plan fonctionnel et technique et un schéma de
+        mutualisation avec nos partenaires. Ces études nous permettent d’avoir
+        une idée précise des impacts socio-économiques du projet
+      </p>
+      <h4>3. AMÉNAGEMENT DES ESPACES ET OUVERTURE</h4>
+      <p>
+        Une fois les demandes de subventions déposées, un plan de représentation
+        et de communication seront mis en action afin de favoriser une obtention
+        rapide des fonds. Une fois les subventions obtenues, les travaux
+        d'aménagement pourront débuter pour mener à une ouverture officielle du
+        nouveau 4001 Berri!
+      </p>
+      <hr />
+      <h2 id="Partenariats">Partenariats</h2>
+      <h3>Le 3995-4001 Berri</h3>
+      <p>
+        Depuis plus de trente ans, le 3995- 4001, Berri est occupé par des
+        organismes artistiques et entreprises créatives. Le bâtiment en briques
+        datant des années 20 se situe tout près des rues Duluth et St-Denis
+      </p>
+      <p>
+        Les centres d'artistes GIV, Ada X et OBORO y tiennent leurs activités
+        depuis respectivement 16, 20 et 30 ans. Après de nombreuses recherches
+        immobilières, l'occasion d'acheter ce bâtiment connu s'est présentée en
+        2022.
+      </p>
+      <p>
+        La première phase du projet d'immobilisation qui visait l'acquisition
+        s’est conclue par l’achat en décembre 2023. La deuxième phase consiste à
+        faire du 4001 Berri une véritable destination artistique à Montréal en
+        regroupant des organismes artistiques voués à la diffusion, la
+        distribution et à la production.
+      </p>
+      <p>
+        Au cours des prochaines années, 8000 p2 se libèreront pour accueillir
+        des organismes artistiques sans but lucratif.
+      </p>
+      <p>
+        Au cours de la dernière année, trois partenaires se sont joints au Pôle
+        artistiques 4001: SBC galerie d’art contemporain, le Centre Turbine et
+        articule.
+      </p>
+      <p>
+        Nous croyons que l'intégration rapide des partenaires permet de
+        construire un projet qui répondra au maximum à leurs besoins. De plus,
+        l'action collaborative renforce la pertinence de notre projet auprès des
+        bailleurs de fonds. Par ailleurs, le regroupement de nos forces favorise
+        une diminution de la charge de travail et financière qu'exige la
+        réalisation un tel projet.
+      </p>
+      <hr />
+      <h2 id="partnairesEngages" class="caps">Partnenaires engagés</h2>
+      <p>
+        Ensemble, nous sommes déterminé·e·s à créer un espace vibrant et durable
+        qui favorise l'expérimentation artistique, la collaboration et
+        l'engagement communautaire, participant à un avenir florissant pour les
+        arts à Montréal.
+      </p>
+      <h3>SBC GALLERIE D’ART CONTEMPORAIN</h3>
+      <p>
+        <a href="https://www.sbcgallery.ca/" target="_blank"
+          ><b>SBC galerie d’art contemporain</b>
+          <i class="fa-solid fa-arrow-up-right-from-square"></i
+        ></a>
+        est un centre d’exposition et une galerie publique à but non lucratif
+        visant à offrir une plateforme pour les artistes, les commissaires et
+        les travailleur.euses culturel.les pour des projets qui interpellent les
+        publics divers de façon critique sur des questions courantes dans l’art,
+        la culture et la société. Son approche collaborative à la production
+        culturelle sillonne sa programmation distinctive d’expositions,
+        d’évènements, de recherche, de publications et d’activités de
+        sensibilisation publique
+      </p>
+      <h3>CENTRE TURBINE</h3>
+      <p>
+        <a href="https://centreturbine.org/" target="_blank"
+          ><b>Le centre Turbine</b>
+          <i class="fa-solid fa-arrow-up-right-from-square"></i
+        ></a>
+        réalise des projets qui introduisent les arts actuels au sein de
+        communautés diversifiées en jumelant des artistes professionnel·le·s de
+        toutes formations et disciplines avec des pédagogues en art. L’organisme
+        contribue également à la réflexion, à la formation et au partage des
+        expériences et des connaissances sur l’art et la pédagogie dans les
+        communautés.
+      </p>
+      <h3>ARTICULE</h3>
+      <p>
+        <a href="https://www.articule.org/" target="_blank"
+          ><b>articule</b> <i class="fa-solid fa-arrow-up-right-from-square"></i
+        ></a>
+        est un centre d’artistes accessible et professionnel, qui se consacre à
+        la présentation d’un large éventail de pratiques en art actuel. À
+        travers ces différents volets de programmation, articule soutient la
+        rigueur artistique, l’expérimentation et l’engagement social. En plus de
+        porter une attention particulière aux artistes de la relève, articule
+        respecte ceux et celles qui ont déjà établi des précédents importants et
+        qui continuent à prendre des risques.
+      </p>
+      <h3>OBORO</h3>
+      <p>
+        Fondé en 1982, avec la conviction que l’expérience artistique
+        transculturelle vivante contribue au mieux-être de l’humanité,
+        <a href="https://www.oboro.net/" target="_blank"
+          ><b>OBORO</b> <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+        est un centre d’artistes qui favorise le développement des pratiques
+        artistiques sur la scène locale, nationale et internationale. Le champ
+        d’action d’OBORO couvre les arts visuels et médiatiques, les nouvelles
+        technologies, l’art sonore, les arts des nouvelles scènes et les
+        pratiques émergentes.
+      </p>
+      <h3>ADA X</h3>
+      <p>
+        Créé en 1996, le Studio XX, aujourd’hui
+        <a href="https://www.ada-x.org/" target="_blank"
+          ><b>Ada X</b>
+          <i class="fa-solid fa-arrow-up-right-from-square"></i></a
+        >, est un centre d’artistes féministe et bilingue engagé dans
+        l’exploration, la création et la réflexion critique en arts médiatiques.
+        Il soutient la production indépendante et la diffusion de propositions
+        d’artistes qui se définissent comme femmes, transgenres et dissident-e-s
+        (d’orientation genrée diverse) au sein des pratiques technologiques
+        contemporaines. Démystifier, donner accès, outiller, questionner et
+        créer, telles sont les visées de l’organisme. Il participe activement au
+        développement d’une démocratie numérique qui encourage l’autonomie et la
+        collaboration.
+      </p>
+      <h3>GIV</h3>
+      <p>
+        Fondé en 1975, le
+        <a href="https://www.givideo.org/" target="_blank"
+          ><b>Groupe Intervention Vidéo (GIV)</b></a
+        >
+        <i class="fa-solid fa-arrow-up-right-from-square"></i> est un centre
+        d’artistes dont le mandat multiple est de distribuer, diffuser et
+        soutenir la production d'œuvres vidéographiques indépendantes réalisées
+        par des femmes, dans sa définition la plus inclusive. Il soutient la
+        pratique des arts médiatiques dans ses différentes formes et courants,
+        tant artistiques qu’activistes. Sa collection reflète une pluralité
+        d'approches et de traitements proposant des points de vue d'artistes de
+        toutes générations et cultures.
+      </p>
+      <hr />
+      <h2 id="strategiesFinancieres">Stratégies Financières</h2>
+      <p>
+        Afin d'assurer la pérennité du projet 4001 Berri, les groupes fondateurs
+        (ADA X, GIV et OBORO) ont créé l'organisme à but non lucratif (OBNL)
+        Pôle artistique 4001 Berri. Ce dernier a acquis l'immeuble en décembre
+        2023. Pour financer cet investissement majeur, le Pôle a contracté un
+        prêt à court terme d'environ 5 millions de dollars, auprès du Fonds
+        immobilier de solidarité FTQ. Afin de garantir le remboursement de ce
+        prêt dans les 2 à 4 ans à venir, nous avons élaboré une stratégie de
+        financement solide qui repose sur plusieurs piliers :
+      </p>
+      <ul>
+        <li>
+          Financement public : Nous solliciterons activement des subventions
+          gouvernementales, notamment auprès du ministère de la Culture et des
+          Communications, pour soutenir le développement de l'immeuble.
+        </li>
+        <li>
+          Partenariats privés : Nous développerons des partenariats avec des
+          fondations, des entreprises et des mécènes pour obtenir des dons et
+          des commandites.
+        </li>
+        <li>
+          Financement participatif : Nous explorerons la possibilité de lancer
+          des campagnes de financement participatif pour mobiliser la communauté
+          artistique et le grand public.
+        </li>
+      </ul>
+
+      <p>
+        Parallèlement, nous étudierons les options de financement à long terme,
+        telles que :
+      </p>
+      <ul>
+        <li>
+          Prêts à capital patient : Nous explorerons les possibilités d'obtenir
+          des prêts à taux avantageux et à long terme pour consolider notre
+          dette.
+        </li>
+        <li>
+          Hypothèque sur l'immeuble : Nous envisagerons, si nécessaire, de
+          contracter une hypothèque sur l'immeuble, en tenant compte des
+          meilleures conditions du marché.
+        </li>
+      </ul>
+
+      <p>
+        Cette stratégie de financement diversifiée nous permettra de sécuriser
+        l'avenir du Pôle artistique 4001 Berri et de faire de cet espace un lieu
+        incontournable de la création artistique à Montréal.
+      </p>
+
+      <hr />
+      <h3>APPUIS COLLABORATEURS·TRICES</h3>
+      <p>
+        Ce projet d’envergure n’aurait pu voir le jour sans l’appui indéfectible
+        de nombreux partenaires. Que ce soit sur le plan financier, par le biais
+        de conseils éclairés ou encore par des lettres de soutien, leur
+        engagement a été déterminant. Nous tenons à remercier chaleureusement
+        tous ceux et celles qui croient en notre projet et qui contribuent à sa
+        réalisation.
+      </p>
+      <h4>SOUTIENS FINANCIERS</h4>
+      <ul>
+        <li>PME-MTL Centre-Ville</li>
+        <li>INNOGEC</li>
+        <li>
+          Ville de Montréal + Ministère de la Culture et des Communications
+        </li>
+        <li>Conseil des arts du Canada</li>
+        <li>Conseil des arts de Montréal</li>
+      </ul>
+      <h4>SOUTIEN POLITIQUE</h4>
+      <ul>
+        <li>Bureau du Maire de l’arrondissement du Plateau-Mont-Royal</li>
+      </ul>
+      <h4>COLLABORATEUR·TRICE·S EXTERNES</h4>
+      <ul>
+        <li>
+          Mco Ateliers - Mélanie Courtois, Services et ressources pour
+          pérenniser et développer les espaces de création
+        </li>
+        <li>Lapointe finances / Conseils - Nathalie Lapointe</li>
+        <li>Atelier Barda - architecte - Kevin Botchar</li>
+        <li>Geniex - ingénérie - Pierre Brassard</li>
+      </ul>
+      <hr />
+     
+    </main>
+  </body>
+</html>
