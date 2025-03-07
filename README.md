@@ -10,3 +10,7 @@ Some of the features it includes are:
 4. It is mobile compatible. 
 
 Built with simple HTML/CSS/JS
+
+Do you want to see it?
+
+Find it on github pages here: https://bubbletrex.github.io/ada_pole/ 
